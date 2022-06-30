@@ -6,4 +6,3 @@ public interface Menu {
 	public void halin() throws Exception;
 	
 }
-
