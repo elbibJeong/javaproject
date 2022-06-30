@@ -56,7 +56,7 @@ public class MemberVO {
    @Override
    public String toString() {
       
-      String str = String.format("[ 회원정보 ]\n아이디: %s \n비밀번호: %s \n이름: %s \n전화번호: %s \n남은 시간: %d \n할인권: %d\n",
+      String str = String.format("[ 회원정보 ]\n아이디: %s \n비밀번호: %s \n이름: %s \n전화번호: %s \n남은 금액: %d \n쿠폰: %d\n",
             id, pw, name, phone, time, coupon);
       
       return str;
